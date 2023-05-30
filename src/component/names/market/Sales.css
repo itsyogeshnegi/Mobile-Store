@@ -1,0 +1,17 @@
+.background_wrok
+{
+    /* background-color: rgb(163, 158, 158); */
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-inline: 100px;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px){
+
+    .background_wrok{padding: 0;}
+
+}

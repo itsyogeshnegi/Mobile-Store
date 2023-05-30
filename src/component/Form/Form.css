@@ -1,0 +1,139 @@
+.main_form_div{
+    /* height: 300px; */
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lets_find{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 50px;
+    width: 25%;
+}
+.lets_find > p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.form_part{
+    /* padding: 10px; */
+    width: 50%; 
+    flex-wrap: wrap;
+}
+.form_part > input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0px;
+    /* border-style: dotted; */
+    outline: none;
+    height: 40px;
+}
+.form_part > input:focus{
+    border: solid black 2px;
+    border-style:dashed ;
+}
+.input_row > input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 48%;
+    border-radius: 20px;
+    border: 0px;
+    height: 40px;
+    outline: none;
+    /* flex: 1; */
+    
+}
+.input_row > input:focus{
+    border: solid black 2px;
+    border-style:dashed ;
+}
+.input_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form__submit{
+    display: flex;
+    flex-direction: column; 
+    width: 20%;
+    align-items: center;
+}
+.inner_number{
+    font-size: 60px;
+    font-weight: 700;
+}
+.form__submit > span{
+    font-size: 30px;
+}
+.form__submit  > button{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: .7s;
+}
+.form__submit > button:hover{
+    background-color: transparent;
+    border: 1px solid black ;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .main_form_div{
+        padding: 20px 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .lets_find{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lets_find > p{
+        text-align: center;
+    }
+    .input_row{
+        width: 100%;
+    }
+    .form_part{
+        padding: 10px;
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+    }
+    #dash{
+        height: 50px;
+    }
+    .form_part > input{
+        height: 50px;
+        width: 100%;
+        padding-left: 20px;
+        /* margin: 10px; */
+    }
+    .form__submit  > button{
+        height: 50px;
+        width: 200px;
+        /* margin: 0px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .form__submit{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

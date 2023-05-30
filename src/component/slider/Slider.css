@@ -1,0 +1,10 @@
+.main__slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    height: auto;
+}
+.main__slider > video{
+    width: 100%;
+}

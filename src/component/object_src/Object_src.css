@@ -1,0 +1,62 @@
+.main_src{
+    /* height: 100%; */
+    --marginnn:5px;
+    width: calc(40% - var(--marginnn));
+    min-width: 200px;
+    max-width: 100%;
+    /* width: 50%; */
+    /* max-width: 100%; */
+    aspect-ratio: 1/1;
+    background-color: whitesmoke;
+    margin: var(--marginnn);
+    flex-grow: 1;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.main_src:hover .images_src{
+    transform: scale(1.05);
+    
+
+}
+.images_src{
+    height: 60%;
+    width: 80%;
+    /* background-color: lightgrey; */
+    transition: .4s;
+}
+.images_src > img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.names_of_phone{
+    height: 20%;
+    /* background-color: lightgray; */
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+#inside{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    /* display: none; */
+    /* animation-name: show; */
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .4s;
+}
+.main_src:hover #inside
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
