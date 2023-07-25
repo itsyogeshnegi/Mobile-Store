@@ -22,9 +22,7 @@ function Navbar() {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Brands</a></li>
                 <li><a href="#">Market</a></li>
-                <li><a href="#">Display</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Smart things</a></li>
                 <li><a href="#">Offers</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>

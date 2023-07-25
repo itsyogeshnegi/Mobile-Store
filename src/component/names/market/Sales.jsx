@@ -61,30 +61,29 @@ function Sales() {
         },
         { 
             id:8,
-            images:"https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71XKAnxCsLL._SX679_.jpg",
-            nameof:"OnePlus 10T 5",
-            price:"₹55,999",
+            images:"https://m.media-amazon.com/images/I/81vDZyJQ-4L._SL1500_.jpg",
+            nameof:"Samsung Galaxy S20 FE 5G",
+            price:"₹34,999",
             tag:true
         },
         { 
             id:9,
-            images:"https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71XKAnxCsLL._SX679_.jpg",
-            nameof:"OnePlus 10T 5",
-            price:"₹55,999",
+            images:"https://m.media-amazon.com/images/I/91cFxYoou8L._SX679_.jpg",
+            nameof:"realme narzo 60 Pro ",
+            price:" ₹23,999"
+        },
+        { 
+            id:10,
+            images:"https://m.media-amazon.com/images/I/71qjUzUt+ML._SX679_.jpg",
+            nameof:"OnePlus 11R 5G",
+            price:"₹39,999",
             tag:true
         },
         { 
             id:10,
-            images:"https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71XKAnxCsLL._SX679_.jpg",
-            nameof:"OnePlus 10T 5",
-            price:"₹55,999",
-            tag:true
-        },
-        { 
-            id:10,
-            images:"https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71XKAnxCsLL._SX679_.jpg",
-            nameof:"OnePlus 10T 5",
-            price:"₹55,999",
+            images:"https://m.media-amazon.com/images/I/71lYm08fIZL._SX679_.jpg",
+            nameof:"(Renewed) Xiaomi 12 Pro | 5G",
+            price:"₹39,999",
             tag:true
         },
     ]

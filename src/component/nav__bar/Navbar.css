@@ -31,8 +31,9 @@
     display: inline-block;
     list-style: none;
     transition: .9s;
-    /* border-radius: 20px; */
+    border-radius: 20px;
     background-color: white;
+    transition: 0.7s;
 }
 .navbar__menu a{
     text-decoration: none;
@@ -83,7 +84,7 @@
     /* background-color: black; */
     color: white;
     border: 1px solid black;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 .navbar__icons a{
     text-decoration: none;
